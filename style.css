@@ -1,3 +1,24 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+
+        section{
+            display: flex;}
+
+        .half-width{
+            width: 50px;
+        padding-left: 2px;}
+
+        .half-widgh img{ width: 80%;}
+        .tomato-color{
+            color: orange;
+            font-weight: 700;
         }
+        .link-button{
+            text-decoration: none;
+            background-image: linear-gradient( red, orange);
+            padding: 10px 40px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 700;
+        }
+        
