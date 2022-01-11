@@ -2,8 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;   
 }
-
-section{
+h1{
+    font-size: 60;
+}
+ h3{
+     font-size: 30px;
+ }
+.flex-area{
     display: flex;
     margin-bottom: 80px;}
 
@@ -33,4 +38,29 @@ section{
         }
         .dream-big{
         background-image: url(C:\Users\ad1\Desktop\Project\first-deplopment\image\jhankar2.png);
+        }
+        .exprinces-area{
+            box-shadow: 10px 10px 30px rgb(116, 78, 8) ;
+            width: 40%;
+            margin-left: 3%;
+            margin-right: 5%;
+            padding: 10px;
+            border-radius: 10px;
+           
+            
+        }
+        .exprinces-area{background-image: url(C:\Users\ad1\Desktop\Project\first-deplopment\image\jhankar2.png);
+        background-repeat: no-repeat;}
+        #border-lefts-color{border-left: 6px solid;
+            border-image: linear-gradient(rgb(247, 108, 16) ,cyan);
+            border-image-slice: 1;
+
+        }
+        #border-left-color{
+            border-left: 6px solid;
+            border-image: linear-gradient(blue ,rgb(228, 17, 182));
+            border-image-slice: 1;
+        }
+        footer p {
+            text-align: center;
         }
